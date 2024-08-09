@@ -10,3 +10,7 @@ while n < len(my_list):
         print(my_list[n], end=' ')
         n += 1
 
+list = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+k = 0
+while k < len(list):
+
