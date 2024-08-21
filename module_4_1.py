@@ -1,10 +1,10 @@
-import true_math as tm
-import fake_math as fm
+from fake_math import divide as fake_divide
+from true_math import divide as true_divide
 from math import inf
 
-tm.true_divide(49,7)
-tm.true_divide(15,0)
-fm.fake_divide(69,3)
-fm.fake_divide(3,0)
+true_divide(49,7)
+true_divide(15,0)
+fake_divide(69,3)
+fake_divide(3,0)
 
 
