@@ -50,11 +50,11 @@ class House:
             self.number_of_floors += other
         return self
 
-    # def __radd__(self, other):
-    #     return House(other + self.number_of_floors)
-
     def __radd__(self, other):
-        return self.__add__(other)
+        return House(self.name, other + self.number_of_floors)
+
+    # def __radd__(self, other):
+    #     return self.__add__(other)
 
     def __iadd__(self, other):
         self.number_of_floors += other
